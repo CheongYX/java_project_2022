@@ -7,7 +7,7 @@ The success of **AlphaFold2** represents a significant step forward in unravelin
 *   **AlphaFold2 Project**: [https://github.com/deepmind/alphafold](https://github.com/deepmind/alphafold)
 *   **UniProt Database (Reviewed)**: [https://www.uniprot.org/uniprot/?query=reviewed:yes](https://www.uniprot.org/uniprot/?query=reviewed:yes)
 
----
+
 
 ## 2. Project Objectives
 This system is designed to handle real-world scientific data with the following capabilities:
@@ -17,14 +17,14 @@ This system is designed to handle real-world scientific data with the following 
 *   **Multidimensional Search**: Retrieve sequences via single or multiple keyword matching with paginated results.
 *   **Scientific Analysis**: Analyze收录 sequence information to provide frequency counts and statistical metrics (e.g., mean, median, and mode) based on sequence length.
 
----
+
 
 ## 3. Technical Implementation
 *   **Language & Environment**: Java (J2SE-1.5).
 *   **Database**: SQLite3—a lightweight, embedded engine chosen for its low resource consumption and high processing speed.
 *   **Architecture**: Decoupled design using an **Interaction Module** for parsing user commands and a **Database Operation Module** for managing sequence data.
 
----
+
 
 ## 4. Logical Flowchart
 The system operates through a structured four-stage pipeline:
@@ -37,7 +37,7 @@ The system operates through a structured four-stage pipeline:
     *   **Pagination Stream**: Utilize `LIMIT` and `OFFSET` for data slicing with boundary checks.
 4.  **Persistence & Output**: Refresh the UI table and provide **safety-checked exports** to ensure researchers use valid scientific file formats.
 
----
+
 
 ## 5. Challenges & Innovations
 ### Engineering Challenges
@@ -50,7 +50,7 @@ The system operates through a structured four-stage pipeline:
 *   **Clustering Analysis**: Providing statistical reports that categorize收录 sequences into clusters.
 *   **Machine Learning Integration**: Training models based on database sequences and labels to predict the types of unrecorded sequences.
 
----
+
 
 ## 6. How to Run
 1.  **Environment**: Ensure **Java 8** is installed and added to your `PATH`.
