@@ -62,4 +62,3 @@ The system operates through a structured four-stage pipeline:
 
 --- 
 **School**: School of Computer Science, Beijing Institute of Technology
-```
